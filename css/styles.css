@@ -1,0 +1,162 @@
+body {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+	font-weight: bolder;
+}
+
+header {
+    background-color: #8FBC8F;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #6B4226;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    border: 1px solid #6B4226; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #FF6347; 
+    color: #fff;
+}
+
+nav ul li a:active {
+    background-color: #333; 
+    color: #fff; 
+}
+
+
+main {
+    padding: 20px;
+	background: url('../images/image1.jpg') no-repeat center center fixed;
+	background-color: black;
+}
+
+footer {
+    background-color: #6B4226;
+    color: #6B4226;
+    text-align: center;
+/*    padding: 1rem 0;*/
+    position: absolute;
+/*    bottom: 0;*/
+    width: 100%;
+	margin-top: auto;
+}
+
+h1, h2 {
+    color: #6B4226;
+}
+
+a {
+    color: #FF6347;
+}
+
+p {
+	color: aliceblue;
+	font-size: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #6B4226;
+    color: #fff; 
+}
+
+td {
+    color: #555; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F5F5F5; 
+}
+tbody tr:nth-child(odd) {
+    background-color: #FAEBD7; 
+}
+
+.accordion-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.accordion-section h3 {
+    color: #6B4226;
+    margin-bottom: 10px;
+}
+
+.accordion-section p {
+    color: #555;
+}
+
+
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: #6B4226;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #6B4226;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #FF6347;
+}
+
+
+
